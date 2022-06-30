@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+    
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    
+}
+
+/* -------------------------nav-section-------------------------*/
+
+h4{
+    font-size: 1.2rem;
+}
+h3{
+    font-size: 2rem;
+}
+h2{
+    font-size: 3rem;
+}
+h1{
+    font-size: 3.5rem;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(232, 211, 214);
+    padding: 20px 60px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.1);
+  
+}
+
+.nav-link ul{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.nav-link ul li{
+    padding: 5px 22px;
+    
+}
+.nav-link ul li a{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: large;
+    transition: 0.5s;
+    position: relative;
+}
+
+.nav-link ul li a:hover::after{
+    content: "";
+    position: absolute;
+    display: block;
+    
+    background-color: black;
+   
+    height: 2px;
+    width: 75%;
+}
+
+
+/*----------------------------hero section-----------------------*/
+
+.hero-section{
+    background: url(img/hero4.png);
+    height: 90vh;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top 25% left 0;
+    padding: 0 6rem;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    letter-spacing: 2px;
+}
+
+.hero-section h2{
+letter-spacing: 7px;
+padding: 5px 0;
+}
+
+.hero-section h4{
+    padding: 5px 0;
+}
+
+.grey{
+    color: rgba(0,0.1,0,0.3);
+
+}
+.hero-section button{
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    padding: 10px 40px;
+    background-image: url(img/button.png);
+    background-repeat: no-repeat;
+    width: 200px;
+}
+
+
+
+/*------------------------------featured secction--------------------*/
+
+.featured{
+    padding: 4rem 5rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.card{
+    border: rgba(0, 0, 0, 0.3) solid 1px;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    border-radius: 10px;
+}
+.card h4{
+    margin-top: 0.8rem;
+}
+
+
+
